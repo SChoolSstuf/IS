@@ -1,0 +1,53 @@
+.common{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.header{
+    height: 100px;
+    background-color:rgb(249, 251, 248);
+    color:black;
+    line-height: 100px;
+}
+
+.mainbody{
+    background-color: rgb(245, 245, 220);
+    right: 5px;
+    left: 5px;
+}
+
+ol{
+    list-style-position: inside;
+    text-align: left;
+ }
+
+.footer{
+    height: 25px;
+    background-color:rgb(247, 239, 196);
+    color:black;
+    position: fixed;
+    bottom: 0px;
+    right: 5px;
+    left: 5px;
+}
+
+img{
+    display: block;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+nav{
+    background-color:rgb(195, 226, 228);
+    padding:10px;
+    overflow: hidden;
+}
+
+nav a{
+    float: left;
+    color:rgb(5, 5, 5);
+    padding:20px 25px;
+    font-size: 16px;
+    font-weight: bold;
+}
